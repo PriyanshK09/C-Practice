@@ -2,13 +2,14 @@
 #include <stdio.h>
 int main()
 {
-    int choice,a,b;
+    char choice;
+    int a,b;
     printf("Enter your choice between 1-4: \n");
-    printf("Press 1 for addition\n");
-    printf("Press 2 for subtraction\n");
-    printf("Press 3 for division\n");
-    printf("Press 4 for multiplication\n");
-    scanf("%d", &choice);
+    printf("Press + for addition\n");
+    printf("Press - for subtraction\n");
+    printf("Press / for division\n");
+    printf("Press * for multiplication\n");
+    scanf("%c", &choice);
 
     printf("Enter two numbers: \n");
     printf("Enter A: ");
@@ -18,16 +19,16 @@ int main()
 
     switch (choice)
     {
-    case 1:
+    case '+':
         printf("(A+B) = (%d+%d) = %d", a, b, a + b);
         break;
-    case 2:
+    case '-':
         printf("(A-B) = (%d-%d) = %d", a, b, a - b);
         break;
-    case 3:
+    case '/':
         printf("(A/B) = (%d/%d) = %d", a, b, a / b);
         break;
-    case 4:
+    case '*':
         printf("(A*B) = (%d*%d) = %d", a, b, a * b);
         break;
     default:
