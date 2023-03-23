@@ -10,4 +10,6 @@ int main()
     printf("\n Printing elements of array a using pointer:");
     for(i=0; i<5; i++)
         printf("\n%d", *(a+i));
+    printf("\n %u %u %u", &a[0],a,&a);
+    return 0;
 }
