@@ -14,15 +14,21 @@ int main(){
     printf("Enter the number of patients: ");
     scanf("%d", &n);
     for(i=0; i<n; i++){
-        printf("Enter Patient Name: ");
-        scanf("%s", P1.Patient_Name);
-        printf("Enter Disease: ");
-        scanf("%s", P1.Disease);
-        printf("Enter Ward No: ");
+        printf("\n Enter the name of the patient %d: ", i+1);
+        scanf("%s", &P1.Patient_Name);
+        printf("\n Enter the disease of the patient %d: ", i+1);
+        scanf("%s", &P1.Disease);
+        printf("\n Enter the ward number of the patient %d: ", i+1);
         scanf("%d", &P1.Ward_No);
-        printf("Enter Total Expense: ");
+        printf("\n Enter the total expense of the patient %d: ", i+1);
         scanf("%f", &P1.Total_Expense);
-        printf("Patient Name: %s    Disease: %s    Ward No: %d    Total Expense: %f \n", P1.Patient_Name, P1.Disease, P1.Ward_No, P1.Total_Expense);
+    }
+    for (i=0; i<n; i++){
+        printf("\n Patient %d details are: ", i+1);
+        printf("\n Name: %s ", P1.Patient_Name);
+        printf("\n Disease: %s ", P1.Disease);
+        printf("\n Ward No: %d ", P1.Ward_No);
+        printf("\n Total Expense: %f ", P1.Total_Expense);
     }
     return 0;
 }
