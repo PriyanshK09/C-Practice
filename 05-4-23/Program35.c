@@ -1,4 +1,6 @@
 #include <stdio.h>
-struct car{
-    
+struct student
+{
+    char name[20];
+    int age;
 }
