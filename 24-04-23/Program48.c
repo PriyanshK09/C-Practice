@@ -71,3 +71,12 @@
 //     strcat(s1,s2);
 //     printf("%s",s1);
 // }
+
+// - strncar is used to concatinate the string (strncat(destination,source,length))
+// int main()
+// {
+//     char s2[]="World";
+//     char s1[]="Hello ";
+//     strncat(s1,s2,3);
+//     printf("%s",s1);
+// }
