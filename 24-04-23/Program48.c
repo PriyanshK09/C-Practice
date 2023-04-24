@@ -46,10 +46,28 @@
 // }
 
 // - String Copy is used to copy the string (strcopy(destination,source))
-int main()
-{
-    char string[]="Hello World";
-    char string2[20];
-    strcpy(string2,string);
-    printf("%s",string2);
-}
+// int main()
+// {
+//     char string[]="Hello World";
+//     char string2[20];
+//     strcpy(string2,string);
+//     printf("%s",string2);
+// }
+
+// - strncpy is used to copy the string (strncpy(destination,source,length))
+// int main()
+// {
+//     char string[]="Hello World";
+//     char string2[20];
+//     strncpy(string2,string,5);
+//     printf("%s",string2);
+// }
+
+// = strcat is used to concatinate the string (strcat(destination,source))
+// int main()
+// {
+//     char s2[]="World";
+//     char s1[]="Hello ";
+//     strcat(s1,s2);
+//     printf("%s",s1);
+// }
