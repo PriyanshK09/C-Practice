@@ -72,7 +72,7 @@
 //     printf("%s",s1);
 // }
 
-// - strncar is used to concatinate the string (strncat(destination,source,length))
+// - strncat is used to concatinate the string (strncat(destination,source,length))
 // int main()
 // {
 //     char s2[]="World";
